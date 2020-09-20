@@ -21,6 +21,126 @@ body, html {
 
 .main {
   background-color: #4d4d4d;
-  height: 100%; }
+  height: 100%;
+  padding: 50px; }
+
+.header {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background-color: #171313; }
+  .header_title {
+    color: #fafafa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px; }
+
+.box {
+  display: flex; }
+  .box_col {
+    width: 50%; }
+
+.box_row {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #000000 0%, #5A5A5A 37.5%, #000000 98.96%);
+  color: #fafafa;
+  height: 75px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .box_row_number {
+    background-image: url(./img/logo/number.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    width: 6%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 75px;
+    text-align: center;
+    margin-right: 30px; }
+  .box_row_company {
+    width: 5%;
+    display: block;
+    margin-right: 30px; }
+  .box_row_content {
+    width: 60%;
+    margin-right: 50px; }
+  .box_row_cup {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    margin-left: 10px; }
+  .box_row_price {
+    margin-left: 15px; }
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px; }
+
+.subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px; }
+
+.bigCup {
+  height: 45px;
+  width: 45px;
+  text-align: center; }
+
+.smallCup {
+  height: 37.5px;
+  width: 30px; }
+
+.price {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px; }
+
+.volume {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px; }
+
+.rub {
+  font-size: 14px; }
+
+.ml {
+  font-size: 12px; }
+
+.active {
+  font-size: 18px;
+  background-image: url("./img/logo/number_red.svg"); }
+
+.footer {
+  height: 135px;
+  background-image: url(./img/logo/hmel_b.svg), url(./img/logo/caftr_beer.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 97.5px; }
+  .footer_content {
+    border-bottom: 3px solid #fafafa;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fafafa; }
+  .footer_social {
+    display: flex;
+    align-items: center; }
+  .footer_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px; }
+
+.social {
+  margin-right: 30px;
+  height: 45px; }
 
 /*# sourceMappingURL=style.css.map */
